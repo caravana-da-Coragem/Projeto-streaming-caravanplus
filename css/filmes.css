@@ -1,19 +1,20 @@
-ul li:nth-child(1){
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-
 .area_filmes {
     margin: 2rem 1.2rem;
 }
 
-.area_series {
-    margin: 2rem 1.2rem;
+ul li:nth-child(2){
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
 }
 
 .cards{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin: 15px 10%;
 }
@@ -23,12 +24,12 @@ ul li:nth-child(1){
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 556px;
+    width: 456px;
     height: 500px;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     border: 1px solid rgb(161, 161, 161);
-    margin: 0px 3rem;
+    margin: 1rem 1rem;
 }
 
 .card>img{
@@ -39,7 +40,7 @@ ul li:nth-child(1){
 }
 
 h2 {
-    margin-left: 2rem;
+    text-align: center;
 }
 
 h3 {
@@ -64,37 +65,3 @@ h3 {
     text-align: center;
     border-radius: 10px;
 }
-
-h4 {
-    margin: 1rem 0;
-    font-size: 1.7rem;
-}
-
-.info_text {
-    line-height: 1.5rem;
-    text-align: start;
-    margin-bottom: 1rem;
-}
-
-.info_card_left {
-    max-width: 30%;
-    margin: 1rem 0;
-}
-.info_card_right {
-    max-width: 30%;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.area_trailer{
-    margin: 2rem 0;
-}
-
-.trailers{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 2rem 0;
-
-}
-
