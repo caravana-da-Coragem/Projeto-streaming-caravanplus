@@ -40,3 +40,10 @@ li{
 li>a{
     text-decoration: none;
 }
+
+footer{
+    background-color: #1B1B1B;
+    padding: 3px;
+    text-align: center;
+    font-size: 0.8rem;
+}
