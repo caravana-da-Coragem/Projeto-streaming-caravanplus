@@ -8,18 +8,22 @@
 .titulo_imagens{
     margin: 1.5rem;
     display: grid;
-    grid-template-columns: 2fr auto;
+    grid-template-columns: repeat(2,1fr);
     gap: 1rem;
     column-gap: 2rem;
     row-gap: 2rem;
 
 }
 
-
 .right_pannel{
     display: grid;
     grid-template-rows: auto 2fr;
     gap: 1rem;
+    
+}
+
+.right_pannel img{
+    max-width: 400px;
 }
 
 .titulo_imagens img:nth-child(1){
@@ -67,4 +71,24 @@
     list-style-type: disc;
     display: flex;
     flex-direction: column;
+}
+
+@media (min-width:1401px){
+    .right_pannel img{
+        max-width: 600px;
+    }
+}
+
+/* @media (min-width: 1200px){
+    .right_pannel img{
+        max-width: 400px;
+    }
+    
+} */
+
+@media (max-width:1199px){
+    .right_pannel img{
+        max-width: 300px;
+    }
+
 }
