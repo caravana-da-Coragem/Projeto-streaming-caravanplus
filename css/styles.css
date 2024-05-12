@@ -23,6 +23,10 @@ header{
     justify-content: space-between;
 }
 
+.laranjinha{
+    color: #FB6900;
+}
+
 h1,
 ul{
     margin: 0px 1rem;

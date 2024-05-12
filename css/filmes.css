@@ -2,10 +2,6 @@
     margin: 2rem 1.2rem;
 }
 
-ul li:nth-child(2){
-    font-weight: bold;
-    text-decoration: underline;
-}
 
 a{
     text-decoration: none;
