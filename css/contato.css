@@ -1,0 +1,71 @@
+body{
+    color: white;
+}
+
+h2{
+    margin: 1rem 0rem 2rem 1rem;
+    color: #DF5F03;
+    font-size: 28px;
+}
+
+form{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 1rem;
+    
+}
+
+input{
+    font-size: 20px;
+}
+
+input,
+textarea{
+    min-width: 300px;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    background-color: #1B1B1B;
+    border: none;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+.button_area {
+    margin: 0 auto;
+    display: flex;
+}
+
+.btn_submit,
+.btn_reset{
+    margin: 0.5rem 0;
+    width: 100px;
+    height: 60px;
+    font-size: 24px;
+    border: 1px solid #DF5F03;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right_container img{
+    max-width: 400px;
+    margin: 1rem auto 2rem;
+}
+
+
+.right_container p{
+    font-size: 24px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 1rem;
+}
